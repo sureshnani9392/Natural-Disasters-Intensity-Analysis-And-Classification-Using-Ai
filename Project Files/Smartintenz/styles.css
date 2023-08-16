@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+   --orange:#ff7800;
+   --black:#130f40;
+   --light-color:#666;
+   --box-shadow:0 .5rem 1.5rem rgba(0,0,.1);
+   --border:.2rem solid rgba(0,0,0.1);
+   --outline:.1rem solid rgba(0,0,0.1);
+   --outline-hover:.2rem solid var(--black);
+}
+
+
+
+*{
+   font-family: 'poppins', sans-serif;
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all .2s linear;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 7rem;
+}
+
+body{
+   background: #eee;
+}
+
+.section{
+  padding: 2rem 9%;
+}
+
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  border: .2rem solid var(--black);
+  color: var(--black);
+  cursor: pointer;
+
+}
+
+.header{
+   position: fixed;
+   top:0; left: 0;right: 0;
+   z-index: 1000;
+   display: flex ;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem 9%;
+   background: #999291;
+   box-shadow: var(--box-shadow);
+}
+.header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+.header .logo{
+  color: var(--black);
+}
+.header .navbar a{
+  font-size: 1.7rem;
+  margin:0 1rem;
+  color: var(--black);
+}
+.header .navbar a:hover{
+  color: var(--orange);
+
+}
+
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13rem;
+
+}
+
+.home .content{
+  text-align: center;
+  width: 70rem;
+}
+
+.home .content h3{
+  color: var(--black);
+  font-size: 3rem;
+}
+
+.home .content h3 span{
+  color: var(--orange);
+}
+
+.home .content p{
+  color: var(--light-color);
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+.home .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+
+
+}
+
+.home .box-container .box{
+  padding: 3rem 2rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -.5rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13rem;
+  
+  }
+  
+  .introduction .content{
+    text-align: center;
+    width: 70rem;
+  }
+  
+  .introduction .content h3{
+    color: var(--black);
+    font-size: 7rem;
+    text-decoration: underline;
+
+  }
+  
+  .introduction .content h3 span{
+    color: var(--orange);
+  }
+  
+
+  .introduction p{
+    font-size: 1.5rem;
+    text-align: center;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
